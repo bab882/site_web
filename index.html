@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <!-- La barre du menu et le logo -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-2">
+                    <div id="header">
+                        <nav class="nav">
+                            <button class="toggle-menu">
+                                <span></span>
+                            </button>
+                        </nav>
+                    </div>
+
+
+                    <div id="menu" class="">
+                        <nav class="main-nav">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        Acceuil
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        La carte
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        Contact
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+
+                        <footer class="menu-footer">
+                            <nav class="footer-nav">
+                                Suivez-nous
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-brands fa-facebook"></i>
+                                            
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-brands fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </footer>
+                    </div>
+
+
+
+                </div>
+                <div class="col logo">Logo à venir</div>
+
+            </div>
+        </div>
+    </header>
+     <div class="container-fluid g-0">
+        <img src="images/pexels-valeria-boltneva-1199957.jpg" alt="homepage" class="img-fluid">
+    
+    </div>
+    <div class="body">
+        <h2>Nos burgers sont fait maison avec de la viande locale</h2>
+        <p>Lorem ipsum dolor sit amet.</p> 
+        <div class="groover"></div>
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore sed fugiat doloremque tempore sequi vel voluptatibus quia. Distinctio eos ipsam nemo obcaecati, est illo. Explicabo maxime quibusdam dolor consequuntur odit!
+        Porro culpa esse ut saepe nam quo, ea qui distinctio rem molestiae quos vel facere sed ducimus, accusantium nisi amet nesciunt sapiente? Quas voluptatem itaque veritatis quis iure blanditiis repellat!
+        epellat dolores illo maxime eius tempore adipisci vel ratione, repellendus quod possimus minima nobis?
+      </h3>
+    </div>  -->
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+
+
+    <script>
+        $('.toggle-menu').click(function () {
+            $(this).toggleClass('active');
+            $('#menu').toggleClass('open');
+        });
+    </script>
+</body>
+
+</html>
