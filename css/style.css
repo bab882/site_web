@@ -216,9 +216,7 @@ body {
 }
 /* bloc pour les horaires */
 .container {
-    /* display: flex;
-    flex-direction: row;
-    justify-content: space-between;  */
+   
     background-color: black;
 }
  .opening p {
@@ -257,6 +255,7 @@ figure {
     padding: 15px;
     border-radius: 10px;
     
+    
 }
 figure img {
     margin: 5px 0;
@@ -273,4 +272,81 @@ figcaption p {
 }
 .box {
     /* Je vais devoir faire le responsive de mes de tout les blocs de la description */
+}
+/* img */
+.container-fluid2 {
+    margin-top: 30px;
+}
+/* suggestion */
+.suggestion {
+    background-color: black;
+    padding: 20px;
+    margin: 0;
+   text-align: center;
+}
+h2 {
+    font-size: 15px;
+    color: #AC2222;
+    
+}
+.dashed {
+    opacity: 1;
+    color: white;
+    border: 0.5px dashed;   
+}
+.suggestion p {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 12px;
+    
+}
+.carousel-control-prev {
+    color: white;
+}
+
+
+/* témoignages */
+.card {
+    /* background-color: white;  */
+    width: 190px;
+    height: 300px;
+    margin: 15px 90px;
+    position: relative;
+    border: none;
+    
+}
+.image img {
+    height: 50px;
+    width: 50px;
+     
+    border-radius: 50%;
+    margin: 0px 100px; 
+    position: absolute;
+    top: 50px;
+    left: -72px;
+    
+}
+.review {
+    background-color: black;
+    width: 180px;
+    height: 100px;
+    margin: 70px 5px;
+    border-radius: 10px;
+    opacity: 1;
+}
+.review p {
+    font-size: 12px;
+    padding: 30px;
+    color: white;
+}
+h5 {
+    color: #AC2222;
+    font-size: 15px;
+    margin: 25px 5px;
+    text-align: center;
+    padding: 0;
+   
+}
+#container-fluid {
+    background-color: black;
 }

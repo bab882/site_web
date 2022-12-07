@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
@@ -91,37 +92,119 @@
 
     <!-- Présentation du restaurant -->
     <div class="box">
-    <div class="content">
-        <img src="/images/salle.jpg" alt="salle" class="img-fluid filtre">
-    </div>
-    <div class="description">
-        <h1>JULIEN BETTIG</h1>
-        <div class="title">
-            <p>MAÎTRE DES BURGERS</p>
+        <div class="content">
+            <img src="/images/salle.jpg" alt="salle" class="img-fluid filtre">
         </div>
-        <div class="design"></div>
-        <br><br>
-        <div><p>Installé au 83 rue Charles De Gaulle, en plein centre ville
-            de Remiremont. Entre Epinal et les pistes de skis de Gérardmer et de La Bresse. Le restaurant a ouvert ses portes en 2019.</p></div>
-        <br>
-        <div><p>Beaucoup de soins ont apporté à l’aménagement pour donner  ambiance conviviale et chaleureuse. Entre bois rustique, pierre et métal. </p></div>
-        <br>
-        <div><p>Julien, vous suggère plusieurs sortent de burgers fait maison et fait pour vous. Il propose des produit frais et 
-            locaux.</p></div>
-    </div>
-    <div class="item">
-        <div>
-            <img src="" alt="">
+        <div class="description">
+            <h1>JULIEN BETTIG</h1>
+            <div class="title">
+                <p>MAÎTRE DES BURGERS</p>
+            </div>
+            <div class="design"></div>
+            <br><br>
+            <div><p>Installé au 83 rue Charles De Gaulle, en plein centre ville
+                de Remiremont. Entre Epinal et les pistes de skis de Gérardmer et de La Bresse. Le restaurant a ouvert ses portes en 2019.</p></div>
+            <br>
+            <div><p>Beaucoup de soins ont apporté à l’aménagement pour donner  ambiance conviviale et chaleureuse. Entre bois rustique, pierre et métal. </p></div>
+            <br>
+            <div><p>Julien, vous suggère plusieurs sortent de burgers fait maison et fait pour vous. Il propose des <b>produit frais et 
+                locaux</b>.</p></div>
         </div>
-
+        <figure>
+            <img src="/images/rea.jpg" class="img-fluid" alt="realisation">
+            <figcaption>
+                Julien
+                <br><br>
+                <p>au fourneau</p>
+            </figcaption>
+        </figure>
+        <figure>
+            <img src="/images/service.jpg" class="img-fluid" alt="realisation">
+            <figcaption>
+                Julien & Elvira
+                <br><br>
+                <p>le duo au service</p>
+            </figcaption>
+        </figure>
     </div>
 
+    <!-- image -->
+    <div class="container-fluid2">
+        <img src="/images/frite.jpg"  class="img-fluid" alt="frite">
+    </div>
+
+    <!-- La partie des suggestion -->
+    <div class="container-fluid2 suggestion">
+        <h2>LES SUGGESTIONS DE LA F.A.B</h2>
+        <hr class="dashed">
+        <p>Chaque mois, nous vous proposons un <b>burger du moment</b>, crée au gré de notre envie et de la saison.</p>
+        <br>
+        <br>
+        <p>Et nos incontournables toute au long de l’année.</p>
+    </div>
+    <!-- Le caroussel des suggestions -->
 
 
+
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleWhite" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleWhite" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleWhite" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="/images/raclette.jpg" class="d-block w-100 img-fluid" alt="burger">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Le burger du moment</h5>
+              <p>Le  burger raclette</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="/images/tonton.jpg" class="d-block w-100 img-fluid" alt="burger">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>L'incontournable</h5>
+              <p>Tonton dédé</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/images/basic.jpg" class="d-block w-100 img-fluid" alt="burger">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Le basic</h5>
+              <p>Tata monique</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleWhite" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleWhite" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
+      <!-- Temoignage -->
+      <div id="container-fluid">
+        <h5>LISEZ CE QUE DISENT NOS CLIENTS</h5>
+      </div>
+      <div class="card">
+        <div class="review">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+        <div class="image">
+            <img src="https://picsum.photos/200/200" class="img-fluid" alt="">
+        </div>
+      </div>
+  
+  
 
     <script src="/node_modules/bootstrap/dist/js/bootstrap.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="js/main.js"></script>
 </body>
-
+<footer>
+    
+</footer>
 </html>
