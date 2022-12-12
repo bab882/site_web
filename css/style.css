@@ -2,6 +2,7 @@ body {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: #ffff;
     font-size: 13px;
+   
 }
 
 .container-fluid {
@@ -311,6 +312,8 @@ h2 {
     margin: 15px 90px;
     position: relative;
     border: none;
+    top: -360px;
+    background: transparent;
     
 }
 .image img {
@@ -326,15 +329,16 @@ h2 {
 }
 .review {
     background-color: black;
-    width: 180px;
-    height: 100px;
+    width: 210px;
+    height: 110px;
     margin: 70px 5px;
     border-radius: 10px;
     opacity: 1;
 }
 .review p {
     font-size: 12px;
-    padding: 30px;
+    padding: 40px; 
+    text-align: left;
     color: white;
 }
 h5 {
@@ -356,4 +360,39 @@ h5 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 50vh;
+}
+
+/* footer */
+footer {
+    width: 100%;
+    border-top: 1px solid black;
+    background: black;
+    color: white;
+    margin-top: -330px;
+}
+.content {
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 50px 0 100px; 
+}
+.bloc {
+    text-align: center;
+    
+}
+.bloc a {
+    text-decoration: none;
+    color: white;
+    border-right: 1px solid;
+    padding: 4px;
+    font-size: 15px;
+}
+.bloc i {
+    font-size: 15px;
+    margin: 3px;
+}
+
+.color {
+    color: #AC2222;
 }
