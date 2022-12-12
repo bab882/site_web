@@ -300,9 +300,7 @@ h2 {
     font-size: 12px;
     
 }
-.carousel-control-prev {
-    color: white;
-}
+
 
 
 /* témoignages */
@@ -347,6 +345,15 @@ h5 {
     padding: 0;
    
 }
-#container-fluid {
+.testimonial {
     background-color: black;
+    margin: 0;
+    padding: 15px;
+}
+#container-fluid {
+    background-image: url('/images/testimonial.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
