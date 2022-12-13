@@ -15,8 +15,8 @@
     <!-- Bannière du menu + logo -->
     <header>
         <!-- La barre du menu et le logo -->
-        <div class="container-fluid">
-            <div class="row">
+        <div class="container-fluid g-0">
+            <div class="row" id="nav">
                 <div class="col-2">
                     <div id="header">
                         <nav class="nav">
@@ -78,59 +78,83 @@
     </header>
     <!-- image du produit -->
     <div class="container-fluid g-0 product">
-        <img src="images/pexels-valeria-boltneva-1199957.jpg" alt="homepage" class="img-fluid">
+        <div class="row">
+            <div class="col-12">
+                <img src="images/hehe.jpg" alt="homepage" class="img-fluid">
+            </div>
+        </div>
     </div>
 
 
     <!-- Bloc pour les horaires -->
     <div class="container-fluid">
-        <div class="opening">
-            <p>Ouvert du mardi au jeudi 11h30-14h et 18h30-21h30. Vendredi et samedi 11h30-14h et 18h30-22h</p>
+        <div class="row">
+            <div class="opening">
+                <p>Ouvert du mardi au jeudi 11h30-14h et 18h30-21h30. Vendredi et samedi 11h30-14h et 18h30-22h</p>
+            </div>
         </div>
     </div>
 
 
     <!-- Présentation du restaurant -->
-    <div class="box">
-        <div class="content">
-            <img src="/images/salle.jpg" alt="salle" class="img-fluid filtre">
-        </div>
-        <div class="description">
-            <h1>JULIEN BETTIG</h1>
-            <div class="title">
-                <p>MAÎTRE DES BURGERS</p>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-6">
+                <div class="content">
+                    <img src="/images/salle.jpg" alt="salle" class="img-fluid filtre">
+                </div>
             </div>
-            <div class="design"></div>
-            <br><br>
-            <div><p>Installé au 83 rue Charles De Gaulle, en plein centre ville
-                de Remiremont. Entre Epinal et les pistes de skis de Gérardmer et de La Bresse. Le restaurant a ouvert ses portes en 2019.</p></div>
-            <br>
-            <div><p>Beaucoup de soins ont apporté à l’aménagement pour donner  ambiance conviviale et chaleureuse. Entre bois rustique, pierre et métal. </p></div>
-            <br>
-            <div><p>Julien, vous suggère plusieurs sortent de burgers fait maison et fait pour vous. Il propose des <b>produit frais et 
-                locaux</b>.</p></div>
+            <div class="col-6 description">
+                <h1>JULIEN BETTIG</h1>
+                <div class="title">
+                    <p>MAÎTRE DES BURGERS</p>
+                </div>
+                <div class="design"></div>
+                <br><br>
+                <div>
+                    <p>Installé au 83 rue Charles De Gaulle, en plein centre ville
+                        de Remiremont. Entre Epinal et les pistes de skis de Gérardmer et de La Bresse. Le
+                        restaurant a ouvert ses portes en 2019.</p>
+                </div>
+                <br>
+                <div>
+                    <p>Beaucoup de soins ont apporté à l’aménagement pour donner ambiance conviviale et chaleureuse.
+                        Entre bois rustique, pierre et métal. </p>
+                </div>
+                <br>
+                <div>
+                    <p>Julien, vous suggère plusieurs sortent de burgers fait maison et fait pour vous. Il propose
+                        des <b>produit frais et
+                            locaux</b>.</p>
+                </div>
+            </div>
+
+            <div class="col-6">
+                <figure>
+                    <img src="/images/rea.jpg" class="img-fluid" alt="realisation">
+                    <figcaption>
+                        Julien
+                        <br><br>
+                        <p>au fourneau</p>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-6">
+                <figure>
+                    <img src="/images/service.jpg" class="img-fluid" alt="realisation">
+                    <figcaption>
+                        Julien & Elvira
+                        <br><br>
+                        <p>le duo au service</p>
+                    </figcaption>
+                </figure>
+            </div>
         </div>
-        <figure>
-            <img src="/images/rea.jpg" class="img-fluid" alt="realisation">
-            <figcaption>
-                Julien
-                <br><br>
-                <p>au fourneau</p>
-            </figcaption>
-        </figure>
-        <figure>
-            <img src="/images/service.jpg" class="img-fluid" alt="realisation">
-            <figcaption>
-                Julien & Elvira
-                <br><br>
-                <p>le duo au service</p>
-            </figcaption>
-        </figure>
     </div>
 
     <!-- image -->
     <div class="container-fluid2">
-        <img src="/images/frite.jpg"  class="img-fluid" alt="frite">
+        <img src="/images/frite.jpg" class="img-fluid" alt="frite">
     </div>
 
     <!-- La partie des suggestion -->
@@ -142,82 +166,87 @@
         <br>
         <p>Et nos incontournables toute au long de l’année.</p>
     </div>
+
     <!-- Le caroussel des suggestions -->
-
-
-
     <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleWhite" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleWhite" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleWhite" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleWhite" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleWhite" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleWhite" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="10000">
-            <img src="/images/raclette.jpg" class="d-block w-100 img-fluid" alt="burger">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Le burger du moment</h5>
-              <p>Le  burger raclette</p>
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="/images/raclette.jpg" class="d-block w-100 img-fluid" alt="burger">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Le burger du moment</h5>
+                    <p>Le burger raclette</p>
+                </div>
             </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="2000">
-            <img src="/images/tonton.jpg" class="d-block w-100 img-fluid" alt="burger">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>L'incontournable</h5>
-              <p>Tonton dédé</p>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="/images/tonton.jpg" class="d-block w-100 img-fluid" alt="burger">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>L'incontournable</h5>
+                    <p>Tonton dédé</p>
+                </div>
             </div>
-          </div>
-          <div class="carousel-item">
-            <img src="/images/basic.jpg" class="d-block w-100 img-fluid" alt="burger">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Le basic</h5>
-              <p>Tata monique</p>
+            <div class="carousel-item">
+                <img src="/images/basic.jpg" class="d-block w-100 img-fluid" alt="burger">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Le basic</h5>
+                    <p>Tata monique</p>
+                </div>
             </div>
-          </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleWhite" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleWhite" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
         </button>
-      </div>
-      
-      <!-- Temoignage -->
+    </div>
+
+    <!-- Temoignage -->
     <div class="testimonial">
         <h5>LISEZ CE QUE DISENT NOS CLIENTS</h5>
     </div>
-    <div id="container-fluid">
-        fgdgf
+    <div id="con">
+        <div class="card">
+            <div class="review">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+            <div class="image">
+                <img src="https://picsum.photos/200/200" class="img-fluid" alt="">
+            </div>
+        </div>
     </div>
-    <div class="card">
-    <div class="review">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-    </div>
-    <div class="image">
-            <img src="https://picsum.photos/200/200" class="img-fluid" alt="">
-     </div>
-      </div>
-  
+
+
+    <!-- Footer -->
     <footer>
-        <div class="content">
+        <div class="content2">
             <div class="bloc create">
                 <p><i class="fa-regular fa-copyright"></i>2022 - Créé par <b class="color">BBMC</b> Développeur Web</p>
             </div>
-            <div class="bloc">
+            <div class="bloc section-left">
                 <a href="#">Mentions légales</a>
                 <a href="#">Politique de confidentialité</a>
-                <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div class="bloc section-right">
+                <a href="https://www.facebook.com/fab.fabriqueaburger.7"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
             </div>
         </div>
-    <script src="/node_modules/bootstrap/dist/js/bootstrap.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="js/main.js"></script>
+        <script src="/node_modules/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="js/main.js"></script>
 </body>
 
-    
+
 </footer>
+
 </html>

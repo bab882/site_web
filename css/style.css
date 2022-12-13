@@ -2,12 +2,8 @@ body {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: #ffff;
     font-size: 13px;
+    
    
-}
-
-.container-fluid {
-    background-color: black;
-    width: 100%;
 }
 /* Css menu burger */
 #menu {
@@ -209,16 +205,27 @@ body {
     height: 85px;
     margin-left: -16.66666%;
 }
-.row{
-    height: 110px;
+#header {
+    margin-left: 15px;
+}
+#nav{
+    height: 100px;
     align-items: center;
     text-align: center;
-    margin-left: 10px;
+    background: black;
+     
+}
+/* Partie product */
+.production img {
+    height: 100vh;
+     
+    object-fit: contain;
+    top: 0;
+    position: absolute;
 }
 /* bloc pour les horaires */
-.container {
-   
-    background-color: black;
+.opening {
+    background-color: black; 
 }
  .opening p {
     color: white;
@@ -228,8 +235,12 @@ body {
     letter-spacing: 2px;
 }
 /* La présentation du restaurant */
+.box {
+    /* Je vais devoir faire le responsive de mes de tout les blocs de la description */
+}
 .content{
-    margin-top: -16px;
+    margin: 0px 15px;
+    
 }
 h1 {
     font-weight: 600;
@@ -240,7 +251,7 @@ h1 {
     font-size: 20px;
 }
 .description {
-    margin: 15px 15px;
+    margin: 15px 0px;
     
 }
 .design {
@@ -271,9 +282,7 @@ figcaption p {
     color: white;
     text-align: center;
 }
-.box {
-    /* Je vais devoir faire le responsive de mes de tout les blocs de la description */
-}
+
 /* img */
 .container-fluid2 {
     margin-top: 30px;
@@ -354,13 +363,14 @@ h5 {
     margin: 0;
     padding: 15px;
 }
-#container-fluid {
+#con {
     background-image: url('/images/testimonial.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 50vh;
+    height: 10vh;
+   
 }
 
 /* footer */
@@ -371,11 +381,11 @@ footer {
     color: white;
     margin-top: -330px;
 }
-.content {
+.content2 {
     width: 100%;
     margin: 0 auto;
     justify-content: center;
-    padding: 50px 0 100px; 
+    padding: 50px 0 100px;  
 }
 .bloc {
     text-align: center;
@@ -391,8 +401,10 @@ footer {
 .bloc i {
     font-size: 15px;
     margin: 3px;
+    
 }
 
 .color {
     color: #AC2222;
 }
+
