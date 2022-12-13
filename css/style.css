@@ -235,13 +235,11 @@ body {
     letter-spacing: 2px;
 }
 /* La présentation du restaurant */
-.box {
-    /* Je vais devoir faire le responsive de mes de tout les blocs de la description */
+.content img {
+    margin: 0px -12px;
+    width: 100%;
 }
-.content{
-    margin: 0px 15px;
-    
-}
+
 h1 {
     font-weight: 600;
     font-size: 20px;
@@ -282,10 +280,9 @@ figcaption p {
     color: white;
     text-align: center;
 }
-
-/* img */
-.container-fluid2 {
-    margin-top: 30px;
+/* carousel */
+.carousel-control-next-icon{
+    color: white;
 }
 /* suggestion */
 .suggestion {
@@ -369,27 +366,23 @@ h5 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 10vh;
+    height: 50vh;
    
 }
 
 /* footer */
-footer {
-    width: 100%;
-    border-top: 1px solid black;
-    background: black;
-    color: white;
-    margin-top: -330px;
-}
 .content2 {
     width: 100%;
-    margin: 0 auto;
+    margin-bottom: 0;
+    height: auto;
     justify-content: center;
-    padding: 50px 0 100px;  
+    padding: 50px 0 100px;
+    background: black;
+    border-top: 1px solid black;
+    color: white;
 }
 .bloc {
-    text-align: center;
-    
+    text-align: center; 
 }
 .bloc a {
     text-decoration: none;
