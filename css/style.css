@@ -8,7 +8,7 @@ body {
 /* Css menu burger */
 #menu {
     
-    height: 100%;
+    height: 100vh;
     left: 0;
     opacity: 0;
     overflow: hidden;
@@ -19,10 +19,11 @@ body {
     visibility: hidden;
     width: 100%;
     z-index: 1100;
+    background: #AC2222;
 }
 @media screen and (min-width: 762px) {
     #menu { 
-        height: 100px;
+        height: 100vh;
     }  
 }
 
@@ -76,36 +77,19 @@ body {
     opacity: 1;
 }
 #menu .main-nav {
+
     position: fixed;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 10%;
     height: 100vh;
     width: 100vw;
-    background: #de4152;
-    
-    
 }
-@media screen and (max-width: 762px) {
-    #menu .main-nav {
-        top: 2%;
-        transform: translateY(-10%);
-    }
-}
-@media screen and (min-width: 360px){
-    #menu .main-nav {
-        top:  1%;     
-        width: 100vw;
-        height: 100vh;
-    }
-}
-#menu .main-nav ul {
+#menu .main-nav ul li {
     list-style: none;
-    margin: 0;
-    padding: 0;
 }
+
 /* Page menu */
 #menu .main-nav a {
-    color: black;
+    color: white;
     display: block;
     font-size: 2.5rem;
     font-weight: bold;
@@ -122,6 +106,11 @@ body {
     left: 0;
     position: absolute;
     right: 0;
+    background-color: #AC2222;
+}
+.footer-nav {
+    font-size: 20px;
+    color: white;
 }
 #menu .menu-footer ul {
     display: inline-block;
@@ -259,24 +248,24 @@ h1 {
     margin-top: 0;
     
 }
-figure {
+.figure {
     background: black;
     margin: 30px 20px;
     padding: 15px;
     border-radius: 10px;
-    
+    color: white;
     
 }
-figure img {
+.figure img {
     margin: 5px 0;
     border-radius: 10px;
 }
-figcaption {
+.figcaption {
     color: #AC2222;
     text-align: center;
     margin-top: 5px;
 }
-figcaption p {
+.figcaption p {
     color: white;
     text-align: center;
 }
@@ -311,39 +300,34 @@ h2 {
 
 
 /* témoignages */
-.card {
-    /* background-color: white;  */
-    width: 190px;
-    height: 300px;
-    margin: 15px 90px;
-    position: relative;
+.body {
+    width: 210px;
+    height: 110px;
+    margin: auto;
     border: none;
-    top: -360px;
-    background: transparent;
-    
+    top: 0px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+    opacity: 0.5;
+    border-radius: 10px;
+    align-items: center;
+    position: relative;
 }
 .image img {
     height: 50px;
     width: 50px;
-     
     border-radius: 50%;
     margin: 0px 100px; 
     position: absolute;
-    top: 50px;
+    top: -25px;
     left: -72px;
     
 }
-.review {
-    background-color: black;
-    width: 210px;
-    height: 110px;
-    margin: 70px 5px;
-    border-radius: 10px;
-    opacity: 1;
-}
-.review p {
+.body p {
     font-size: 12px;
-    padding: 40px; 
+    padding: 30px; 
     text-align: left;
     color: white;
 }
