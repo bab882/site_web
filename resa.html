@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>rervation</title>
+    <title>reservation</title>
 </head>
 <body>
     <header>
@@ -77,71 +77,74 @@
     </header>
     
     <div class="container-fluid g-0 bon">
-        <!-- <div class="row"> -->
-          <div class="col-6 fond">
-            <img src="/images/re.jpg" class="img-fluid" alt="">
-          </div>
+        <div class="row">
+          <div class="col-8 fond">
+            <img src="/images/re.jpg" class="img-fluid" alt="dfdq">
+        </div>
         
         <div class="container reservation">
-          <form class=" g-3" method="post">
-                
-            <!-- Nom -->
-            <div class="row">
-                <div class="col-6 col-md-6">
-                    <label for="name" class="form-label"></label>
-                    <input type="name" class="form-control" id="name" placeholder="Nom" name="name" required>
+            <div class="row align-items-center">
+                <div class="col-4">
+            <!-- Formulaire de Réservation -->
+                <form class=" g-3" method="post">            
+                    <!-- Nom -->
+                    <div class="row ">
+                        <div class="col-6 col-md-6">
+                            <label for="name" class="form-label"></label>
+                            <input type="name" class="form-control" id="name" placeholder="Nom" name="name" required>
+                        </div>
+                        <!-- Prenom -->
+                        <div class="col-6 col-md-6">
+                            <label for="firstname" class="form-label"></label>
+                            <input type="firstname" class="form-control" id="firstname" placeholder="Prénom" name="" required>
+                        </div>
+                    </div>
+                    <!-- Mail -->
+                    <div class="col-12">
+                        <label for="email" class="form-label"></label>
+                        <input type="email" class="form-control" id="email" placeholder="Veuillez saisir votre adresse mail" name="" required>
+                    </div>
+                    <!-- Telephone -->
+                    <div class="row">
+                    <div class="col-7 col-md-7">
+                        <label for="phone" class="form-label"></label>
+                        <input type="phone" class="form-control" id="phone" placeholder="Numéro mobile" name="phone" required>
+                    </div>
+                    <!--  Nombre de personnes-->
+                    <div class="col-5 col-md-5">
+                        <label for="number" class="form-label"></label>
+                        <input type="number" class="form-control" id="number" placeholder="Nbr" name="number" required>
+                    </div>
                 </div>
-                <!-- Prenom -->
-                <div class="col-6 col-md-6">
-                    <label for="firstname" class="form-label"></label>
-                    <input type="firstname" class="form-control" id="firstname" placeholder="Prénom" name="" required>
+                    <!-- Date -->
+                    <div class="row">
+                    <div class="col-7 col-md-7 ">
+                    <label for="date" class="form-label"></label>
+                    <input type="date" class="form-control" id="date" placeholder="date" name="date" required>
+                    </div>
+                    <!-- Heure -->
+                    <div class="col-4 col-md-4">
+                    <label for="hours" class="form-label"></label>
+                    <input type="hours" class="form-control" id="hours" placeholder="hours" name="hours" required>
+                    </div>
                 </div>
+                    <!-- RGPD -->
+                    <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                        <label class="form-check-label" for="invalidCheck2">
+                        Conditions Générales de Vente (CGV)
+                        </label>
+                    </div>
+                    </div>
+                    <div class="col-12">
+                    <button class="btn btn-primary" type="submit">Submit form</button>
+                    </div>
+                </form>
             </div>
-            <!-- Mail -->
-            <div class="col-12">
-                <label for="email" class="form-label"></label>
-                <input type="email" class="form-control" id="email" placeholder="Veuillez saisir votre adresse mail" name="" required>
-            </div>
-            <!-- Telephone -->
-            <div class="row">
-            <div class="col-7 col-md-7">
-                <label for="phone" class="form-label"></label>
-                <input type="phone" class="form-control" id="phone" placeholder="Numéro mobile" name="phone" required>
-            </div>
-            <!--  Nombre de personnes-->
-            <div class="col-5 col-md-5">
-                <label for="number" class="form-label"></label>
-                <input type="number" class="form-control" id="number" placeholder="Nbr" name="number" required>
             </div>
         </div>
-            <!-- Date -->
-            <div class="row">
-            <div class="col-7 col-md-7 ">
-              <label for="date" class="form-label"></label>
-              <input type="date" class="form-control" id="date" placeholder="date" name="date" required>
-            </div>
-            <!-- Heure -->
-            <div class="col-4 col-md-4">
-              <label for="hours" class="form-label"></label>
-              <input type="hours" class="form-control" id="hours" placeholder="hours" name="hours" required>
-            </div>
-        </div>
-            <!-- RGPD -->
-            <div class="col-12">
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
-                <label class="form-check-label" for="invalidCheck2">
-                  Conditions Générales de Vente (CGV)
-                </label>
-              </div>
-            </div>
-            <div class="col-12">
-              <button class="btn btn-primary" type="submit">Submit form</button>
-            </div>
-          </form>
-        </div>
-      </div>
-      </div>
+    </div>
      
                     
             <!-- Footer -->
