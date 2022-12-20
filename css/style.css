@@ -1,13 +1,11 @@
 body {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: #ffff;
-    font-size: 13px;
-    
-   
+    font-size: 13px;   
 }
 /* Css menu burger */
 #menu {
-    
+
     height: 100vh;
     left: 0;
     opacity: 0;
@@ -207,7 +205,6 @@ body {
 /* Partie product */
 .production img {
     height: 100vh;
-     
     object-fit: contain;
     top: 0;
     position: absolute;
