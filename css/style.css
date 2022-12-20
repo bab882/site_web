@@ -382,3 +382,24 @@ h5 {
     color: #AC2222;
 }
 
+/* ----------- PAGE DE RESERVATION -------------------*/
+.fond{
+    height: 100vh;
+    width: 50%;
+    margin: 0;
+}
+/* .bon {
+    height: 100vh;
+    width: 100%;
+    
+} */
+.reservation {
+    background-color: black;
+    height: 350px;
+    width: 50%;    
+    margin: 15px 15px;
+    border-radius: 10px;
+    padding: 20px;
+    
+    
+} 
